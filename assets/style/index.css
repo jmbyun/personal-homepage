@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,300;0,500;1,300;1,500&display=swap');
+
+:root {
+    --text-color: #222;
+    --main-color: #044177;
+    --light-grey-color: #f8f8f8;
+    --header-text-color: #444;
+    --header-text-highlight-color: #777;
+    --header-border-color: rgba(230, 230, 230, 0.3);
+    --header-scrolled-bg-color: rgba(230, 230, 230, 0.9);
+    --max-width: 52rem;
+    --header-height: 5rem;
+    --p-margin: 0.5rem;
+    --list-margin: 0.4rem;
+    --list-padding-left: 1.6rem;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bitter', 'Cambria', serif;
+    font-weight: 300;
+    color: var(--text-color);
+    line-height: 1.4em;
+}
+
+p {
+    margin-top: var(--p-margin);
+    margin-bottom: var(--p-margin);
+}
+
+ul {
+    padding-left: var(--list-padding-left);
+    margin-top: var(--list-margin);
+    margin-bottom: var(--list-margin);
+}
+
+ol {
+    padding-left: var(--list-padding-left);
+    margin-top: var(--list-margin);
+    margin-bottom: var(--list-margin);
+}
+
+a {
+    transition: all .5s ease;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:link {
+    color: var(--main-color);
+}
+
+a:visited {
+    color: var(--main-color);
+}
+
+a:hover {
+    color: var(--main-color);
+    opacity: 0.7;
+}
+
+a:active {
+    color: var(--main-color);
+}
+
+h1 {
+    font-weight: 500;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+h4 {
+    font-weight: 500;
+}
+
+h5 {
+    font-weight: 500;
+}
+
+h6 {
+    font-weight: 500;
+}
+
+strong {
+    font-weight: 500;
+}
+
+.header-padded {
+    padding-top: calc(var(--header-height) + 1rem);
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--header-height);
+    margin: 0;
+    padding: 0;
+    z-index: 998;
+    transition: all 1s ease;
+}
+
+.header-scrolled {
+    height: 3.75rem;
+    background-color: var(--header-scrolled-bg-color);
+    border-bottom: 1px solid var(--light-grey-color);
+}
+
+.header-content {
+    display: flex;
+    margin: 0 auto;
+    padding: 0 1rem;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    max-width: var(--max-width);
+    border-bottom: 1px solid var(--header-border-color);
+}
+
+.header-logo {
+    flex: 0 0 auto;
+}
+
+.header-logo .title {
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    margin: 0;
+}
+
+.header-nav {
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header-nav-item {
+    padding: 1rem 1rem;
+    text-decoration: none;
+    color: var(--header-text-color);
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 1s ease;
+}
+
+.header-nav-item:hover {
+    color: var(--header-text-highlight-color);
+}
+
+.title {
+    margin-bottom: 3rem;
+}
+
+.vspace {
+    height: 1.5rem;
+}
+
+.vspace.tiny {
+    height: 0.5rem;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 1rem;
+    max-width: var(--max-width);
+    width: 100%;
+}
+
+.profile {
+    width: 100%;
+    min-height: 11rem;
+}
+
+.profile-image {
+    float: left;
+    margin-right: 2rem;
+    border: 50%;
+    background-size: cover;
+    width: 10rem;
+    height: 10rem;
+}
+
+.fixed-width-icon {
+    display: inline-block;
+    min-width: 1.5rem;
+}
+
+.margined-icon {
+    margin-right: 0.5rem;
+}
+
+@media screen and (max-width: 48rem) {
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 5.5rem;
+        margin: 0;
+        padding: 0;
+        z-index: 998;
+        transition: height 1s ease, background-color 1s ease;
+    }
+
+    .header-scrolled {
+        height: 5.5rem;
+        background-color: var(--header-scrolled-bg-color);
+        border-bottom: 1px solid var(--light-grey-color);
+    }
+
+    .header-content {
+        display: flex;
+        padding: 0.5rem 0.5rem;
+        align-items: center;
+        flex-direction: column;
+        border-bottom: 1px solid var(--header-border-color);
+    }
+
+    .header-nav {
+        flex: 1 1 auto;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .header-nav-item {
+        padding: 0.2rem 0.5rem;
+        text-decoration: none;
+        color: var(--header-text-color);
+        font-size: 0.7rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: color 1s ease;
+    }
+
+    .profile-image {
+        float: none;
+        width: 8rem;
+        height: 8rem;
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+}

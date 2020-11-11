@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<div class="container">
+    <div class="profile">
+        <div class="profile-image" style="background-image:url(/assets/image/profile.jpg);"></div>
+    
+        Ph.D. Candidate <br>
+        @ <a href="uilab.kr" target="_blank">Users & Information Lab</a>, 
+        <a href="https://www.kaist.ac.kr/en/" target="_blank">KAIST</a> 
+        
+        <div class="vspace"></div>
+
+        <small>
+            <a href="mailto:jmbyun@kaist.ac.kr">
+                <i class="fa fa-envelope fixed-width-icon"></i> jmbyun@kaist.ac.kr
+            </a><br>
+            <a href="https://github.com/jmbyun" target="_blank">
+                <i class="fa fa-github fixed-width-icon"></i> jmbyun
+            </a><br>
+            <a href="https://twitter.com/jeongminbyun" target="_blank">
+                <i class="fa fa-twitter fixed-width-icon"></i> jeongminbyun
+            </a><br>
+            <a href="https://scholar.google.co.kr/citations?user=oCvhmc8AAAAJ&hl=en" target="_blank">
+                <i class="fa fa-graduation-cap fixed-width-icon"></i> Google Scholar</i>
+            </a>
+        </small>
+    </div>
+    
+    <div class="vspace"></div>
+
+    <div class="resume">
+    {% capture resume %}{% include_relative resume.md %}{% endcapture %}
+    {{ resume | markdownify }}
+    </div>
+</div>
