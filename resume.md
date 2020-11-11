@@ -26,17 +26,17 @@ B.Sc. in Computer Science
 **Detecting Contract Cheaters in Online Programming Classes with Keystroke Dynamics**  
 <small><strong>Jeongmin Byun</strong>, Jungkook Park, Alice Oh</small>  
 <small><em>In Proceedings of the Seventh ACM Conference on Learning @ Scale (2020)</em></small>  
-<small><a href="https://dl.acm.org/doi/abs/10.1145/3386527.3406726"><i class="fa fa-book margined-icon"></i> Paper</a></small>
+<small><a href="https://dl.acm.org/doi/abs/10.1145/3386527.3406726" target="_blank"><i class="fa fa-book margined-icon"></i> Paper</a></small>
 
 **Cocode: Co-learner Screen Sharing for Social Translucence in Online Programming Courses**  
 <small><strong>Jeongmin Byun</strong>, Jungkook Park, Alice Oh</small>  
 <small><em>In Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems</em></small>  
-<small><a href="https://dl.acm.org/doi/abs/10.1145/3334480.3383154"><i class="fa fa-book margined-icon"></i> Paper</a></small>
+<small><a href="https://dl.acm.org/doi/abs/10.1145/3334480.3383154" target="_blank"><i class="fa fa-book margined-icon"></i> Paper</a></small>
 
 **Subword-level Word Vector Representations for Korean**  
 <small>Sungjoon Park, <strong>Jeongmin Byun</strong>, Sion Baek, Yongseok Cho, and Alice Oh</small>  
 <small><em>In Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (2018)</em></small>  
-<small><a href="https://aclanthology.info/papers/P18-1226/p18-1226"><i class="fa fa-book margined-icon"></i> Paper</a></small>
+<small><a href="https://aclanthology.info/papers/P18-1226/p18-1226" target="_blank"><i class="fa fa-book margined-icon"></i> Paper</a></small>
 
 <div class="vspace"></div>
 
