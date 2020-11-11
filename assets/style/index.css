@@ -187,6 +187,7 @@ strong {
 .profile {
     width: 100%;
     min-height: 11rem;
+    overflow: auto;
 }
 
 .profile-image {
@@ -196,6 +197,10 @@ strong {
     background-size: cover;
     width: 10rem;
     height: 10rem;
+}
+
+.profile-body {
+    float: left;
 }
 
 .fixed-width-icon {
