@@ -16,7 +16,7 @@ M.Sc. in Computer Science, Advisor: <a href="https://aliceoh9.github.io" target=
 <small><em>2013 - 2015</em></small>
 
 **Korea Advanced Institute of Science and Technology (KAIST)** &nbsp;<small>Daejeon, South Korea</small>  
-B.Sc. in Computer Science
+B.Sc. in Computer Science  
 <small><em>2009 - 2013</em></small>
 
 <div class="vspace"></div>
