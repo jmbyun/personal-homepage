@@ -1,0 +1,43 @@
+<p>
+    <strong>{{ include.title }}</strong><br>
+    <small>
+        {% for author in include.authors %}
+            <span>
+                {% if author == site.data.main.name %}
+                <strong>
+                {% endif %}
+                {% if forloop.last %}
+                and {{ author }}
+                {% else %}
+                {{ author }},
+                {% endif %}
+                {% if author == site.data.main.name %}
+                </strong>
+                {% endif %}
+            </span>
+        {% endfor %}
+    </small><br>
+    <small>
+        <em>{{ include.booktitle }} ({{ include.year }})</em>
+    </small><br>
+    {% if include.abstract %}
+    <div class="vspace tiny"></div>
+    <!-- <small><strong>Abstract</strong></small><br> -->
+    {% if include.image %}
+    <img src="{{ include.image }}" class="publication-image"></img>
+    {% endif %}
+    <small>
+        {{ include.abstract }}
+    </small><br>
+    <div class="vspace tiny"></div>
+    {% endif %}
+    <small>
+        {% for link in include.links %}
+            <a href="{{ link.url }}" target="_blank" class="right-margined">
+                <i class="fa fa-{{ link.icon }} right-tiny-margined"></i>
+                {{ link.label }}
+            </a>
+        {% endfor %}
+    </small>
+</p>
+

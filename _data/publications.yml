@@ -1,0 +1,85 @@
+- 
+    title: "Detecting Contract Cheaters in Online Programming Classes with Keystroke Dynamics"
+    authors: 
+        - Jeongmin Byun
+        - Jungkook Park
+        - Alice Oh
+    booktitle: "In Proceedings of the Seventh ACM Conference on Learning at Scale"
+    year: 2020
+    links:
+        - 
+            icon: book
+            label: Paper
+            url: https://dl.acm.org/doi/abs/10.1145/3386527.3406726
+    abstract: "In online programming classes, it is tricky to uphold academic honesty in the assessment process. A common approach, plagiarism detection, is not accurate for novice programmers and ineffective for detecting contract cheaters. We present a new approach, cheating detection with keystroke dynamics in programming classes, and evaluated the approach."
+    image: "/assets/image/keystroke-diagram.png"
+    selected: true
+- 
+    title: "Cocode: Co-learner Screen Sharing for Social Translucence in Online Programming Courses"
+    authors: 
+        - Jeongmin Byun
+        - Jungkook Park
+        - Alice Oh
+    booktitle: "In Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems"
+    year: 2020
+    links:
+        - 
+            icon: book
+            label: Paper
+            url: https://dl.acm.org/doi/abs/10.1145/3386527.3406726
+    abstract: "In this work, we present Cocode, an online learning system where learners can share their presence without any explicit action; their normal learning activities would signal co-learner presence. Cocode is a web application for online programming courses that shows other learners' code editors and running screens in the programming environment to the learners while working on exercises. Evaluation results show that Cocode makes learners work on more hands-on exercises."
+    image: "/assets/image/cocode-chi2020.png"
+    selected: true
+- 
+    title: "Subword-level Word Vector Representations for Korean"
+    authors: 
+        - Sungjoon Park
+        - Jeongmin Byun
+        - Sion Baek
+        - Yongseok Cho
+        - Alice Oh
+    booktitle: "In Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics"
+    year: 2018
+    links:
+        - 
+            icon: book
+            label: Paper
+            url: https://www.aclweb.org/anthology/P18-1226/
+    abstract: "In this paper, we improve distributed word representations for Korean language by decomposing words into the consonants and vowels to use the subword information. To evaluate the vectors, we develop Korean test sets for word similarity and analogy and make them publicly available. The results show that our simple method outperforms word2vec and character-level Skip-Grams on semantic and syntactic similarity."
+    image: "/assets/image/korean-word-vector.png"
+    selected: true
+- 
+    title: "Understanding Editing Behaviors in Multilingual Wikipedia"
+    authors: 
+        - Sungjoon Park
+        - Suin Kim
+        - Scott A. Hale
+        - Sooyoung Kim
+        - Jeongmin Byun
+        - Alice Oh
+    booktitle: "PLOS ONE"
+    year: 2016
+    links:
+        - 
+            icon: book
+            label: Paper
+            url: http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0155305
+    abstract: "We study multilingualism by collecting and analyzing a large dataset of the content written by multilingual editors of the English, German, and Spanish editions of Wikipedia. We analyze these multilingual editors in terms of their engagement, interests, and language proficiency in their primary and non-primary (secondary) languages and find that the English edition of Wikipedia displays different dynamics from the Spanish and German editions. Users primarily editing the Spanish and German editions make more complex edits than users who edit these editions as a second language. In contrast, users editing the English edition as a second language make edits that are just as complex as the edits by users who primarily edit the English edition. In this way, English serves a special role bringing together content written by multilinguals from many language editions. ..."
+- 
+    title: "Multilingual Wikipedia: Editors of Primary Language Contribute to More Complex Articles"
+    authors: 
+        - Suin Kim
+        - Sungjoon Park
+        - Scott A. Hale
+        - Sooyoung Kim
+        - Jeongmin Byun
+        - Alice Oh
+    booktitle: "Wiki Workshop at the 9th International AAAI Conference on Weblogs and Social Media"
+    year: 2015
+    links:
+        - 
+            icon: book
+            label: Paper
+            url: https://www.aaai.org/ocs/index.php/ICWSM/ICWSM15/paper/download/10648/10567
+    abstract: "For many people who speak more than one language, their language proficiency for each of the languages varies. We identify Wikipedia as a great resource for studying multilingualism, and we conduct a quantitative analysis of the language complexity of primary and non-primary users of English, German, and Spanish. Our preliminary results indicate that there are indeed consistent differences of language complexity in the Wikipedia articles chosen by primary and non-primary users, as well as differences in the edits by the two groups of users."
+    image: "/assets/image/multilingual-wikipedia.png"

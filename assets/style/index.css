@@ -153,16 +153,16 @@ strong {
 .header-nav-item {
     padding: 1rem 1rem;
     text-decoration: none;
-    color: var(--header-text-color);
+    color: var(--header-text-color) !important;
     font-size: 0.8rem;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
-    transition: color 1s ease;
+    transition: all .5s ease !important;;
 }
 
 .header-nav-item:hover {
-    color: var(--header-text-highlight-color);
+    color: var(--header-text-highlight-color) !important;
 }
 
 .title {
@@ -208,8 +208,19 @@ strong {
     min-width: 1.5rem;
 }
 
-.margined-icon {
+.right-tiny-margined {
     margin-right: 0.5rem;
+}
+
+.right-margined {
+    margin-right: 1.5rem;
+}
+
+.publication-image {
+    float: right;
+    margin: 1rem 1rem;
+    width: 16rem;
+    max-width: 100%;
 }
 
 @media screen and (max-width: 48rem) {
@@ -266,6 +277,11 @@ strong {
     }
 
     .profile-body {
+        float: none;
+    }
+
+    .publication-image {
+        display: block;
         float: none;
     }
 }
