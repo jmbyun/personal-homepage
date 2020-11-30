@@ -1,4 +1,20 @@
 - 
+    title: "Pythonpad: Server-free Python Hands-on Exercise for Online Programming Classes"
+    authors: 
+        - Jeongmin Byun
+        - Jungkook Park
+        - Alice Oh
+    booktitle: "To Appear in Proceedings of the 52nd ACM Technical Symposium on Computer Science Education"
+    year: 2021
+    links:
+        - 
+            icon: laptop
+            label: Demo
+            url: https://www.pythonpad.co/courses/cs101-1/
+    abstract: "We propose Pythonpad, an open-source JavaScript library that supports web-based Python programming exercises. Unlike other standalone web-based programming tools, Pythonpad can be easily integrated into other websites. Although it runs learners' Python code in client-side web browsers, Pythonpad supports file system, building and importing external modules, and many essential built-in Python libraries to teach basic programming concepts in CS1 classes."
+    image: "/assets/image/pythonpad.png"
+    selected: true
+- 
     title: "Detecting Contract Cheaters in Online Programming Classes with Keystroke Dynamics"
     authors: 
         - Jeongmin Byun
@@ -11,6 +27,10 @@
             icon: book
             label: Paper
             url: https://dl.acm.org/doi/abs/10.1145/3386527.3406726
+        -
+            icon: video-camera
+            label: Video
+            url: https://youtu.be/-t41qIc-QHY
     abstract: "In online programming classes, it is tricky to uphold academic honesty in the assessment process. A common approach, plagiarism detection, is not accurate for novice programmers and ineffective for detecting contract cheaters. We present a new approach, cheating detection with keystroke dynamics in programming classes, and evaluated the approach."
     image: "/assets/image/keystroke-diagram.png"
     selected: true
@@ -27,6 +47,10 @@
             icon: book
             label: Paper
             url: https://dl.acm.org/doi/abs/10.1145/3386527.3406726
+        -
+            icon: video-camera
+            label: Video
+            url: https://youtu.be/I5CerfKi_rE
     abstract: "In this work, we present Cocode, an online learning system where learners can share their presence without any explicit action; their normal learning activities would signal co-learner presence. Cocode is a web application for online programming courses that shows other learners' code editors and running screens in the programming environment to the learners while working on exercises. Evaluation results show that Cocode makes learners work on more hands-on exercises."
     image: "/assets/image/cocode-chi2020.png"
     selected: true
