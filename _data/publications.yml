@@ -1,12 +1,38 @@
 - 
+    title: "Cocode: Providing Social Presence with Co-learner Screen Sharing in Online Programming Classes"
+    authors: 
+        - Jeongmin Byun
+        - Jungkook Park
+        - Alice Oh
+    booktitle: "To appear in Proceedings of the ACM on Human-Computer Interaction"
+    year: 2021
+    links:
+        - 
+            icon: laptop
+            label: Demo
+            url: https://jmbyun.github.io/cocode-demo/
+    selected: true
+- 
     title: "Pythonpad: Server-free Python Hands-on Exercise for Online Programming Classes"
     authors: 
         - Jeongmin Byun
         - Jungkook Park
         - Alice Oh
-    booktitle: "To Appear in Proceedings of the 52nd ACM Technical Symposium on Computer Science Education"
+    booktitle: "In Proceedings of the 52nd ACM Technical Symposium on Computer Science Education"
     year: 2021
     links:
+        -
+            icon: file-text-o
+            label: Abstract
+            url: https://dl.acm.org/doi/10.1145/3408877.3439572
+        -
+            icon: file-image-o
+            label: Poster
+            url: https://drive.google.com/file/d/1tR8AK7E2yAIvk8mmUHiwY2G2kpr4daCy/view?usp=sharing
+        -
+            icon: globe
+            label: Website
+            url: https://pythonpad.github.io/
         - 
             icon: laptop
             label: Demo
@@ -46,7 +72,7 @@
         - 
             icon: book
             label: Paper
-            url: https://dl.acm.org/doi/abs/10.1145/3386527.3406726
+            url: https://dl.acm.org/doi/abs/10.1145/3334480.3383154
         -
             icon: video-camera
             label: Video
