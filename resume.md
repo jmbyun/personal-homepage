@@ -44,13 +44,13 @@ B.Sc. in Computer Science
 
 ## Work Experience
 
-**Tanker Inc.** &nbsp;<small>Seoul, South Korea &nbsp;<a href="https://blitz.re.kr/" target="_blank"><i class="fa fa-link"></i></a></small>
-CTO and Software Engineer
+**Tanker Inc.** &nbsp;<small>Seoul, South Korea &nbsp;<a href="https://blitz.re.kr/" target="_blank"><i class="fa fa-link"></i></a></small>  
+CTO and Software Engineer  
 <small><em>2021 - Present</em></small>
 - Designing and building a web-based real estate legal documentation automation software Doczip.kr
 - Rebuilding a web-based P2P lending platform Tanker.fund to follow the new laws regulating online P2P lending businesses
 
-**Elice Co.** &nbsp;<small>Daejeon, South Korea &nbsp;<a href="https://elice.io/" target="_blank"><i class="fa fa-link"></i></a></small>   
+**Elice Co.** &nbsp;<small>Daejeon, South Korea &nbsp;<a href="https://elice.io/" target="_blank"><i class="fa fa-link"></i></a></small>  
 Co-founder and Software Engineer  
 <small><em>2015 - 2019</em></small>
 - Designing and building a web-based programming education platform Elice.io  
