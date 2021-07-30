@@ -9,7 +9,7 @@
 
 **Korea Advanced Institute of Science and Technology (KAIST)** &nbsp;<small>Daejeon, South Korea</small>  
 Ph.D. in Computer Science, Advisor: <a href="https://aliceoh9.github.io" target="_blank">Alice Oh</a>  
-<small><em>2015 - Present</em></small>
+<small><em>2015 - 2021</em></small>
 
 **Korea Advanced Institute of Science and Technology (KAIST)** &nbsp;<small>Daejeon, South Korea</small>  
 M.Sc. in Computer Science, Advisor: <a href="https://aliceoh9.github.io" target="_blank">Alice Oh</a>  
@@ -44,7 +44,13 @@ B.Sc. in Computer Science
 
 ## Work Experience
 
-**Elice Co.** &nbsp;<small>Daejeon, South Korea &nbsp;<a href="https://elice.io" target="_blank"><i class="fa fa-link"></i></a></small>   
+**Tanker Inc.** &nbsp;<small>Seoul, South Korea &nbsp;<a href="https://blitz.re.kr/" target="_blank"><i class="fa fa-link"></i></a></small>
+CTO and Software Engineer
+<small><em>2021 - Present</em></small>
+- Designing and building a web-based real estate legal documentation automation software Doczip.kr
+- Rebuilding a web-based P2P lending platform Tanker.fund to follow the new laws regulating online P2P lending businesses
+
+**Elice Co.** &nbsp;<small>Daejeon, South Korea &nbsp;<a href="https://elice.io/" target="_blank"><i class="fa fa-link"></i></a></small>   
 Co-founder and Software Engineer  
 <small><em>2015 - 2019</em></small>
 - Designing and building a web-based programming education platform Elice.io  
