@@ -4,13 +4,19 @@
         - Jeongmin Byun
         - Jungkook Park
         - Alice Oh
-    booktitle: "To appear in Proceedings of the ACM on Human-Computer Interaction"
+    booktitle: "in Proceedings of the ACM on Human-Computer Interaction Vol. 5, No. CSCW2"
     year: 2021
     links:
+        - 
+            icon: book
+            label: Paper
+            url: https://drive.google.com/file/d/1WFXjpsuXANGPvBnq3rEbWPvQBGNfLSk8/view?usp=sharing
         - 
             icon: laptop
             label: Demo
             url: https://jmbyun.github.io/cocode-demo/
+    abstract: "Social presence is known to be important for distance education, and a common approach in online classes is to provide chat boxes and forums to provide the social presence. In such a class, however, learners must explicitly act beyond their normal learning activities, so often there is no social presence in the class even when there are several learners working on the same course material. In this paper, we develop an approach where learners can share the social presence without any explicit action; their normal learning activities would be used to provide visual cues for social presence. We present Cocode, a system designed for an online programming class that shows other learners' code editors and running output in the programming environment with minimum privacy issues. For evaluation, we ran two user studies with groups of participants who took an offline class and an online programming class from the university; results from the studies showed that learners felt less social presence in Cocode than in offline classes, but they felt significantly more social presence in Cocode than in online classes with live video lectures, forums, and chat sessions."
+    image: "/assets/image/cocode-cscw2021.png"
     selected: true
 - 
     title: "Pythonpad: Server-free Python Hands-on Exercise for Online Programming Classes"
@@ -24,7 +30,7 @@
         -
             icon: file-text-o
             label: Abstract
-            url: https://dl.acm.org/doi/10.1145/3408877.3439572
+            url: https://drive.google.com/file/d/1-VEJcgD0WpSquUNy_lU0naNxwkR-rlue/view?usp=sharing
         -
             icon: file-image-o
             label: Poster
@@ -52,7 +58,7 @@
         - 
             icon: book
             label: Paper
-            url: https://dl.acm.org/doi/abs/10.1145/3386527.3406726
+            url: https://drive.google.com/file/d/1i8z38HaVO4nBPvxNVCBE6QG7TtjIyjdv/view?usp=sharing
         -
             icon: video-camera
             label: Video
@@ -72,7 +78,7 @@
         - 
             icon: book
             label: Paper
-            url: https://dl.acm.org/doi/abs/10.1145/3334480.3383154
+            url: https://drive.google.com/file/d/1cECRxmUEqQ3cMTbDQ-dEfJyIAsrt28iR/view?usp=sharing
         -
             icon: video-camera
             label: Video
